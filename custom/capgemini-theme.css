@@ -1,0 +1,67 @@
+/* Capgemini Document Processing Center - Custom Theme */
+
+:root {
+  /* Primary Colors */
+  --pngx-primary: #0058AB !important;
+  --pngx-primary-dark: #121A38 !important;
+  --pngx-primary-light: #1DB8F2 !important;
+  
+  /* Override Bootstrap/Angular Material colors */
+  --bs-primary: #0058AB !important;
+  --bs-primary-rgb: 0, 88, 171 !important;
+  --bs-link-color: #0058AB !important;
+  --bs-link-hover-color: #1DB8F2 !important;
+  
+  /* Accent colors */
+  --pngx-accent: #1DB8F2 !important;
+  --pngx-accent-turquoise: #00D5D0;
+  --pngx-accent-yellow: #FEB100;
+  --pngx-accent-orange: #FF816E;
+}
+
+/* Primary buttons */
+.btn-primary {
+  background-color: #0058AB !important;
+  border-color: #0058AB !important;
+}
+
+.btn-primary:hover {
+  background-color: #004488 !important;
+  border-color: #004488 !important;
+}
+
+/* Links */
+a {
+  color: #0058AB;
+}
+
+a:hover {
+  color: #1DB8F2;
+}
+
+/* Navbar / Header */
+.navbar, .sidebar, nav {
+  background-color: #121A38 !important;
+}
+
+/* Selection/highlight colors */
+::selection {
+  background-color: #1DB8F2;
+  color: white;
+}
+
+/* Tags and badges */
+.badge-primary, .tag-primary {
+  background-color: #0058AB !important;
+}
+
+/* Progress bars */
+.progress-bar {
+  background-color: #0058AB !important;
+}
+
+/* Focus states */
+.form-control:focus {
+  border-color: #1DB8F2 !important;
+  box-shadow: 0 0 0 0.2rem rgba(0, 88, 171, 0.25) !important;
+}
