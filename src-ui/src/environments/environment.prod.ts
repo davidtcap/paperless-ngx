@@ -4,7 +4,7 @@ export const environment = {
   production: true,
   apiBaseUrl: document.baseURI + 'api/',
   apiVersion: '9', // match src/paperless/settings.py
-  appTitle: 'Paperless-ngx',
+  appTitle: 'Capgemini Document Processing Center',
   tag: 'prod',
   version: '2.20.5',
   webSocketHost: window.location.host,
